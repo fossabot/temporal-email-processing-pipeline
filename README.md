@@ -1,4 +1,6 @@
 # Temporalizing an email processing pipeline
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgurmeetgold%2Ftemporal-email-processing-pipeline.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgurmeetgold%2Ftemporal-email-processing-pipeline?ref=badge_shield)
+
 
 A small, runnable before/after that shows what changes when you move a
 retry-heavy pipeline onto Temporal. It's based on a real system I worked on --
@@ -153,3 +155,7 @@ after/   Worker.java                                  hosts everything, run firs
 EmailMessage.java, ScanResult.java                    shared message + result types
 test/    EmailWorkflowTest.java                        clean path, malware fast-fail, delivery backoff
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgurmeetgold%2Ftemporal-email-processing-pipeline.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgurmeetgold%2Ftemporal-email-processing-pipeline?ref=badge_large)
